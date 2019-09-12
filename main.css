@@ -1,0 +1,26 @@
+body {
+  line-height: 1;
+  font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+main {
+  margin-top: 125px;
+  max-width: 560px;
+  margin: 125px auto 0;
+  text-align: center;
+}
+
+.me {
+  border-radius: 100%;
+  width: 125px;
+}
+
+h1 {
+  font-size: 40px;
+  color: #222;
+}
+
+h2 {
+  color: #aaa;
+  font-weight: 300;
+}
