@@ -1,6 +1,7 @@
 body {
   line-height: 1;
   font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 main {
@@ -10,17 +11,29 @@ main {
   text-align: center;
 }
 
+h1 {
+  font-size: 40px;
+  color: #222;
+  margin: 25px 0 13px 0;
+  letter-spacing: -1px;
+}
+
+h2 {
+  color: #aaa;
+  font-size: 18px;
+  font-weight: 300;
+}
+
 .me {
   border-radius: 100%;
   width: 125px;
 }
 
-h1 {
-  font-size: 40px;
-  color: #222;
+.social-media {
+  font-size: 18px;
+  margin: 25px 0;
 }
 
-h2 {
-  color: #aaa;
-  font-weight: 300;
+.social-media > * {
+  padding: 10px;
 }
