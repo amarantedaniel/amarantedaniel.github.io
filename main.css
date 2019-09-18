@@ -42,4 +42,32 @@ a {
 
 .social-media > * {
   padding: 10px;
+  position: relative;
+}
+
+.social-media > *:hover::before {
+  content: "";
+  position: absolute;
+  top: 35px;
+  left: 13px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 6px solid #222;
+}
+
+.social-media > *:hover::after {
+  content: attr(data);
+  position: absolute;
+  background: #222;
+  font-size: 13px;
+  color: #fff;
+  bottom: -28px;
+  left: -6px;
+  padding: 3px 10px;
+  border-radius: 2px;
+  height: 22px;
+  line-height: 22px;
+  white-space: nowrap;
 }
