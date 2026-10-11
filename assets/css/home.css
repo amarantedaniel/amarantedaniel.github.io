@@ -19,7 +19,11 @@ a:focus-visible { outline: 2px solid #a5c591; outline-offset: 5px; }
 h1 { font-weight: 400; }
 h1 strong { font-weight: 700; }
 .file-socials { display: flex; flex-wrap: wrap; gap: 0 24px; color: var(--file-accent); }
-.company-links a { color: var(--file-accent); }
+.plain-file a { color: var(--file-accent); }
+.file-back { color: var(--file-accent); }
+.company-title { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 20px; }
+.company-dates { color: var(--file-muted); font-size: 12px; }
+.company-website { color: var(--file-accent); overflow-wrap: anywhere; }
 .plain-file footer { border-top: 1px solid var(--file-border); padding: 10px 20px; }
 .plain-file a:focus-visible { outline-color: var(--file-accent); }
 .file-theme-toggle { display: flex; align-items: center; gap: 8px; min-height: 28px; color: var(--file-muted); cursor: pointer; }
